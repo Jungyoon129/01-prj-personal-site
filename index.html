@@ -3,9 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <title>My Personal Site</title>
+  <!-- Rounded font style from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <!-- Navigation Bar -->
+  <nav>
+    <!-- Simple navigation links to each section -->
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#bio">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#portfolio">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <img src="img/Profile.jpeg" alt="My photo" class="hero-img">
+    <h1>Hi, I'm Jungyoon Lee</h1>
+    <p>Welcome to my portfolio website!</p>
+  </section>
+
+  <!-- Bio Section -->
+  <section id="bio" class="bio">
+    <h2>About Me</h2>
+    <p>
+      Hi, I am Jungyoon Lee. I am majoring in Chemistry, but I also enjoy learning web development with HTML and CSS. I love connecting science with creativity and look forward to sharing more projects as I continue learning.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <!-- Each skill is in its own box, icon above the name -->
+      <li>
+        <i class="fa-brands fa-html5"></i>
+        <div>HTML (Beginner Level)</div>
+      </li>
+      <li>
+        <i class="fa-brands fa-css3-alt"></i>
+        <div>CSS (Beginner Level)</div>
+      </li>
+      <li>
+        <i class="fa-solid fa-flask"></i>
+        <div>Chemistry (Major, Undergraduate)</div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <h2>My Projects</h2>
+    <p>Check back soon for my latest work!</p>
+    <!-- Add your projects here as you create them -->
+  </section>
+
+  <!-- Hobbies Section -->
+  <section id="hobbies" class="hobbies">
+    <h2>My Hobbies</h2>
+    <ul>
+      <!-- Each hobby is listed simply for beginners -->
+      <li>Taking manual film pictures 📸</li>
+      <li>Crocheting 🧶</li>
+      <li>Shopping for LP vinyl at secondhand record stores 🎵</li>
+      <li>Taking videos and editing 🎥</li>
+      <li>Learning web development 💻 (New!)</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:jlee414@gmu.edu">jlee414@gmu.edu</a></p>
+  </section>
 </body>
 </html>
